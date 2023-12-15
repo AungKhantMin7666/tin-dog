@@ -1,0 +1,55 @@
+#title{
+    background-color: rgb(233, 118, 118);
+    color: white;
+}
+
+#button1:hover{
+    background-color: rgb(125, 125, 125);
+    color: black;
+}
+
+#button1{
+    background-color: black; 
+    color: white;
+}
+
+h1{
+    font-family: serif;
+}
+.row img{
+    transform: rotate(30deg);
+}
+
+@media (max-width: 1200px) {
+    .row img{
+        transform: rotate(0deg);
+    }
+  }
+.flex_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.box{
+    width: auto;
+    height: auto;
+}
+#testimonials{
+    background-color: rgb(233, 118, 118);
+}
+#press{
+    background-color: rgb(233, 118, 118);
+}
+#cta{
+    background-color: rgb(233, 118, 118); 
+}
+#button3{
+    background-color: rgb(224, 224, 224);
+}
+#button3:hover{
+    background-color: rgb(39, 39, 39);
+}
